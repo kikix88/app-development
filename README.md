@@ -1,3 +1,5 @@
-# app-development: MyVrends, Church Build
-# IOS
-# Android
+# UX|UI design
+
+# app-development: IOS Android
+
+# web-development: front-end
