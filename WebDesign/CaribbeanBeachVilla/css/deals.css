@@ -1,0 +1,364 @@
+
+/* Deals and Packages style sheet created by: Linyi He, 06/13/2020 */
+
+/*Find and Book*/
+.populartitle{
+    text-align:center;
+    font-weight:bolder;
+}
+
+.textbox{
+    float:left;
+    margin-top:30px;
+    margin-left:15px;
+}
+
+
+
+#rooms{
+    margin-left:5%;
+    text-align:center;
+}
+
+.hotelbox{
+    width:100%;
+    height: 500px;
+}
+
+.hotelimage{
+    float:left;
+    margin-left:100px;
+}
+
+#popular{
+    text-align: center;
+    height:480px;
+    width:100%;
+    overflow-x:auto;
+    margin-top:50px;
+}
+
+.popular1{
+    float:left;
+    margin-left:100px;
+}
+
+.populartext h3{
+    font-weight:bolder;
+    font-size:20px;
+    text-align:center;
+}
+
+.populartext h4{
+    font-weight:bolder;
+    font-size:20px;
+    text-align:center;
+}
+
+.popularimg{
+    border: 0;
+    padding:0;
+}
+
+.populartext p{
+    text-align:left;
+    margin-left:15px;
+}
+
+.populartext{
+    width:300px;
+    height:250px;
+    margin-top:-5px;
+    background-color: #BFD9D7;
+    border:0;
+    padding:0;
+    white-space:normal; 
+    color:#0B5056;
+}
+
+.insidetext{
+    width:215px;
+    height:80px;
+    margin-left:40px;
+}
+
+/*Deals and Packages*/
+.dealtext{
+    margin-top:-5px;
+    width:300px;
+    height:200px;
+    background-color: #BFD9D7;
+    border:0;
+    padding:0;
+    white-space:normal; 
+    color:#0B5056;
+}
+
+.dealinsidetext{
+    width:225px;
+    height:45px;
+    margin-left:40px;
+}
+
+.dealsubmit{
+    width:100%;
+    height: 60px;
+    color:#333;
+    border: none;
+    background-color:#BFD9D7;
+    float:left;
+    color:#0B5056;
+    margin-top:50px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 300;
+}
+
+
+
+a:hover{
+text-decoration:underline;
+}
+
+.leanrmore{
+    margin-top: 40px;
+}
+
+.Submit3{
+    color:#0B5056;
+    width:150px;
+    height: 50px;
+    border: 3;
+    border-color:#0B5056;
+    background-color:transparent;
+    margin-top: 30px;
+}
+
+.Submit3:hover {
+    background-color: rgb(154, 243, 221);
+    color:white;
+    text-decoration:underline;
+  }
+
+#extra{
+    overflow:auto;
+}
+
+/*collapsible*/
+
+.collapsible {
+    background-color: #BFD9D7;
+    color: #0B5056;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible:hover {
+    background-color: rgb(154, 243, 221);
+    color:white;
+    text-decoration:underline;
+  }
+
+.Dealtitle{
+    float:left;
+    margin-left:20px;
+}    
+.active .collapsible:hover {
+    background-color: #BFD9D7;
+}
+      
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    text-align:left;
+
+}
+
+/*contact us*/
+#phonenumbers{
+    align-items:center;
+}
+.phonenumbers h1{
+    text-align:center;
+}
+
+.phonenumbers td{
+    height:40px;
+    width:300px;
+}
+
+.phonenumbers table{
+    margin-left: 28%;
+    margin-top:10px;
+    color:#0B5056;
+}
+#contactinfo{
+    font-family: Arial;
+    background-color:#BFD9D7;
+    float:left;
+    margin-top: 30px;
+    text-align: center;
+    color:#0B5056;
+    width:100%;
+    overflow:auto;
+}
+
+.emailpart{
+    font-weight:bolder;
+    overflow-x:auto;
+}
+
+.firstname{
+    float:left;
+    margin-left:20%;
+}
+
+.lastname{
+    margin-left:200px;
+}
+
+.email{
+    float:left;
+    margin-left:20%;
+}
+
+.des{
+    float:left;
+    margin-left:20%;
+}
+
+.help{
+    float:left;
+    margin-left:20%;
+    text-align:left;
+}
+
+.help h4{
+    font-weight:bolder;
+}
+
+.Submit1{
+    width:100px;
+    height: 50px;
+    color:#0B5056;
+    background-color:transparent;
+    border:3;
+    border-color:#0B5056;
+    float:right;
+    margin-right:10%;
+    margin-top:400px;
+    font-weight:bolder;
+    font-size: 300;
+}
+
+
+.Submit1:hover {
+    background-color: rgb(154, 243, 221);
+    color:white;
+    text-decoration:underline;
+  }
+
+
+/*Meeting and Events*/
+
+.Submit4{
+    width:100px;
+    height: 40px;
+    color:#BFD9D7;
+    border: 3;
+    border-color:#BFD9D7;
+    background-color:#333;
+    float:right;
+    font-weight:bolder;
+    font-size: 300;
+}
+
+.Submit4:hover{
+    color:#333;
+    background-color:#BFD9D7;
+    text-decoration:underline;
+}
+
+.eventtext{
+    width:300px;
+    height:250px;
+    background-color: #BFD9D7;
+    color:#0B5056;
+    border:0;
+    padding:0;
+    white-space:normal;
+    margin-top:3px;
+    text-align:center;
+}
+
+ 
+
+
+/*search box*/
+#searchbox{
+    height:100px;
+    color:#0B5056 ;
+    background:#BFD9D7;
+}
+
+
+#searchbox h4{
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+#searchbox h5{
+    float:left;
+    margin-top:10px;
+    margin-left:30px;
+}
+
+#searchbox form{
+    float: left;
+    margin-top:25px;
+    margin-left: 10px;
+}
+
+.datebox{
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.search{
+    width: 210px;
+    height:35px;
+    border:1px solid silver ;
+}
+.search_key{
+    width: 150px;
+    height: 25px;
+    border: none;
+    margin-top: 5px; 
+    margin-left: 5px;     
+}
+.Submit{
+    width:40px;
+    height: 25px;
+    color:#BFD9D7;
+    border: none;
+    background-color:transparent;
+}
+
+
+
+
+
+

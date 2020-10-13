@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!-- Created by: Wenqi Xia, 06/13/2020 -->
+<html lang="en">
+<head>
+<title>Caribbean Beach Villa Dining</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/dining.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.shop.js"></script>
+
+</head>
+
+<body>
+    <div id="site">
+	<!-- Use the header area for the website name or logo -->
+<header>
+	<a href="index.html">
+	<img src="images/logo.png" alt="Villa Logo" id="logo" height="110" width="110">
+	</a>
+</header>
+
+<!-- nav bar style -->
+<div class="topnav" id="myTopnav">
+	<a href="index.html">Home</a>
+	<a href="Accommodation.html">Accommodations</a>
+	<div class="dropdown">
+	  <button class="dropbtn"  class="active">Dining 
+		<i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+		<a href="bistro.html">Bistro</a>
+		<a href="bar.html">Bar</a>
+		<a href="onlineorder.html"  class="active">Order</a>
+	  </div>
+	</div> 
+    <a href="Meetings and Events.html">Meetings & Events</a>
+    
+    <div class="dropdown">
+        <button class="dropbtn">Offers 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="Deals.html">Deals</a>
+        <a href="Packages.html">Caribbean Special Packages</a>
+        </div>
+    </div> 
+    
+	<a href="Contact.html">Maps & Contact</a>
+	<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+ 
+<!-- Bistro banner image -->
+<div class="deskstop">	
+	<img src="images/bistro1.jpg" style="width:100%; height:auto; margin:0 auto" alt="header image">
+</div>
+
+<!-- online order list-->
+
+<div id="content">
+	<div id="products">
+		<div>
+			<img src="images/food.gif" alt="lines" style="width: 100px; height: auto;">
+		</div>
+		<h1 style="font-weight: bold; font-size: 30px; color:black; text-align: center; padding-top: 30px;">FOOD</h1>
+		<ul>
+			<li>
+				<div class="product-image">
+					<img src="images/food1.png" alt="food" />
+				</div>
+				<div class="product-description" data-name="salmon salad" data-price="10.50">
+					<h3 class="product-name">salmon salad</h3>
+					<p class="product-price">&dollar; 10.50</p>
+					<form class="add-to-cart" action="cart.html" method="post">
+						<div>
+							<label for="qty-1">Quantity</label>
+							<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+						</div>
+						<p><input type="submit" value="Add to cart" class="btn" /></p>
+					</form>
+				</div>
+			</li>
+			
+			<li>
+				<div class="product-image">
+					<img src="images/food2.png" alt="food" />
+				</div>
+				<div class="product-description" data-name="ravioli" data-price="14.50">
+					<h3 class="product-name">ravioli</h3>
+					<p class="product-price">&dollar; 14.50</p>
+					<form class="add-to-cart" action="cart.html" method="post">
+						<div>
+							<label for="qty-2">Quantity</label>
+							<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+						</div>
+						<p><input type="submit" value="Add to cart" class="btn" /></p>
+					</form>
+				</div>
+			</li>
+			
+			<li>
+				<div class="product-image">
+					<img src="images/food3.png" alt="food" />
+				</div>
+				<div class="product-description" data-name="pizza" data-price="14.99">
+					<h3 class="product-name">pizza</h3>
+					<p class="product-price">&dollar; 14.99</p>
+					<form class="add-to-cart" action="cart.html" method="post">
+						<div>
+							<label for="qty-3">Quantity</label>
+							<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+						</div>
+						<p><input type="submit" value="Add to cart" class="btn" /></p>
+					</form>
+				</div>
+			</li>
+
+			<li>
+				<div class="product-image">
+					<img src="images/food4.png" alt="food" />
+				</div>
+				<div class="product-description" data-name="steak" data-price="18.99">
+					<h3 class="product-name">NY steak</h3>
+					<p class="product-price">&dollar; 18.99</p>
+					<form class="add-to-cart" action="cart.html" method="post">
+						<div>
+							<label for="qty-4">Quantity</label>
+							<input type="text" name="qty-4" id="qty-4" class="qty" value="1" />
+						</div>
+						<p><input type="submit" value="Add to cart" class="btn" /></p>
+					</form>
+				</div>
+			</li>
+			
+			<li>
+				<div class="product-image">
+					<img src="images/food5.png" alt="food" />
+				</div>
+				<div class="product-description" data-name="pasta" data-price="14.99">
+					<h3 class="product-name">pasta</h3>
+					<p class="product-price">&dollar; 14.99</p>
+					<form class="add-to-cart" action="cart.html" method="post">
+						<div>
+							<label for="qty-5">Quantity</label>
+							<input type="text" name="qty-5" id="qty-5" class="qty" value="1" />
+						</div>
+						<p><input type="submit" value="Add to cart" class="btn" /></p>
+					</form>
+				</div>
+			</li>
+			
+			<li>
+				<div class="product-image">
+					<img src="images/food6.png" alt="food" />
+				</div>
+				<div class="product-description" data-name="seafood" data-price="19.99">
+					<h3 class="product-name">seafood rice</h3>
+					<p class="product-price">&dollar; 19.99</p>
+					<form class="add-to-cart" action="cart.html" method="post">
+						<div>
+							<label for="qty-6">Quantity</label>
+							<input type="text" name="qty-6" id="qty-6" class="qty" value="1" />
+						</div>
+						<p><input type="submit" value="Add to cart" class="btn" /></p>
+					</form>
+				</div>
+			</li>
+			<div>
+				<img src="images/lines.gif" alt="lines">
+			</div>
+			<div style="font-weight: bold; font-size: 30px; color:black; text-align: center; margin-bottom: 30px;">DESSERT</div>
+			<li>
+				<div class="product-image">
+					<img src="images/dessert1.png" alt="dessert" />
+				</div>
+				<div class="product-description" data-name="apple pie" data-price="4.99">
+					<h3 class="product-name">apple pie</h3>
+					<p class="product-price">&dollar; 4.99</p>
+					<form class="add-to-cart" action="cart.html" method="post">
+						<div>
+							<label for="qty-7">Quantity</label>
+							<input type="text" name="qty-7" id="qty-7" class="qty" value="1" />
+						</div>
+						<p><input type="submit" value="Add to cart" class="btn" /></p>
+					</form>
+				</div>
+			</li>
+			
+			<li>
+				<div class="product-image">
+					<img src="images/dessert2.png" alt="dessert" />
+				</div>
+				<div class="product-description" data-name="tiramisu" data-price="6.99">
+					<h3 class="product-name">tiramisu</h3>
+					<p class="product-price">&dollar; 6.99</p>
+					<form class="add-to-cart" action="cart.html" method="post">
+						<div>
+							<label for="qty-8">Quantity</label>
+							<input type="text" name="qty-8" id="qty-8" class="qty" value="1" />
+						</div>
+						<p><input type="submit" value="Add to cart" class="btn" /></p>
+					</form>
+				</div>
+			</li>
+			
+			<li>
+				<div class="product-image">
+					<img src="images/dessert3.png" alt="dessert" />
+				</div>
+				<div class="product-description" data-name="cheesecake" data-price="5.99">
+					<h3 class="product-name">cheesecake</h3>
+					<p class="product-price">&dollar; 5.99</p>
+					<form class="add-to-cart" action="cart.html" method="post">
+						<div>
+							<label for="qty-9">Quantity</label>
+							<input type="text" name="qty-9" id="qty-9" class="qty" value="1" />
+						</div>
+						<p><input type="submit" value="Add to cart" class="btn" /></p>
+					</form>
+				</div>
+			</li>
+			
+
+			
+		</ul>
+	</div>
+</div>
+
+
+
+
+
+
+  <script>
+  function myFunction() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+	  x.className += " responsive";
+	} else {
+	  x.className = "topnav";
+	}
+  }
+  </script>
+
+
+
+
+
+
+
+
+</div>
+
+
+<!-- Use the footer area to add webpage footer content -->
+<footer class="footer-distributed">
+ 
+	<div class="footer-left">
+  <img src="images/logo.png" style="width:50px; height:auto;" alt="logo image">
+		<h3>CaribbeanBeach<span>Villa</span></h3>
+
+		<p class="footer-links">
+			<a href="index.html">Home</a>
+			|
+			<a href="menu.html">Menu</a>
+			|
+			<a href="onlineorder.html">Order</a>
+			|
+			<a href="Deals.html">Offers</a>
+			|
+			<a href="contact.html">Contact</a>
+		</p>
+
+		<p class="footer-company-name">© 2020 Caribbean Beach Villa</p>
+	</div>
+
+	<div class="footer-center">
+		<div>
+			<i class="fa fa-map-marker"></i>
+			  <p><span>1 Blvd. Kukulcan, Manzana 51, Lote.7
+				 77500,</span>
+				Cancun, Mexico</p>
+		</div>
+
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>880 888 0000</p>
+		</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p><a href="mailto:admin@coastalcafe.com">cs@caribbeanbeachvilla.com</a></p>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+
+</html>	

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Your Order</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/homepage.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.shop.js"></script>
+</head>
+
+<body id="checkout-page">
+
+<div id="site">
+	<header>
+        <a href="index.html">
+        <img src="images/logo0.75x.png" alt="Coastal Cafe Logo" id="logo" height="110" width="90">
+        </a>
+        <div class="topic">LIFE HAPPENS. COFFEE HELPS.</div>
+	</header>
+	<div id="content">
+		<h1>Your Order</h1>
+			<table id="checkout-cart" class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+		 <div id="pricing">
+			
+			<p id="shipping">
+				<strong>Shipping</strong>: <span id="sshipping"></span>
+			</p>
+			
+			<p id="sub-total">
+				<strong>Total</strong>: <span id="stotal"></span>
+			</p>
+		 </div>
+		 
+		 <div id="user-details">
+		 	<h2>Your Data</h2>
+		 	<div id="user-details-content"></div>
+		 </div>
+		 
+		 
+		 
+		 
+<form id="paypal-form" action="" method="post">
+	<input type="hidden" name="cmd" value="_cart" />
+	<input type="hidden" name="upload" value="1" />
+	<input type="hidden" name="business" value="" />
+        
+	<input type="hidden" name="currency_code" value="" />
+	<input type="submit" id="paypal-btn" class="btn" value="Pay with PayPal" />
+</form>
+		 
+		 
+	</div>
+	
+	
+
+</div>
+
+  <!-- Use the footer area to add webpage footer content -->
+  <footer class="footer-distributed">
+ 
+	<div class="footer-left">
+  <img src="images/logo0.75x.png" style="width:50px; height:auto;">
+		<h3>Coastal<span>Cafe</span></h3>
+
+		<p class="footer-links">
+			<a href="index.html">Home</a>
+			|
+			<a href="menu.html">Menu</a>
+			|
+			<a href="onlineorder.html">Order</a>
+			|
+			<a href="contact.html">Contact</a>
+		</p>
+
+		<p class="footer-company-name">© 2020 Coastal Cafe</p>
+	</div>
+
+	<div class="footer-center">
+		<div>
+			<i class="fa fa-map-marker"></i>
+			  <p><span>1 Main St,
+				 Malden, 02148,</span>
+				Massachusetts</p>
+		</div>
+
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>781 888 0000</p>
+		</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p><a href="mailto:admin@coastalcafe.com">admin@coastalcafe.com</a></p>
+		</div>
+	</div>
+	<div class="footer-right">
+		<p class="footer-company-about">
+			<span>About the company</span>
+			We offer fresh organic food and drinks in New England Area.</p>
+		<div class="footer-icons">
+			<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-instagram"></i></a>
+			<a href="#"><i class="fa fa-linkedin"></i></a>
+			<a href="#"><i class="fa fa-youtube"></i></a>
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>	

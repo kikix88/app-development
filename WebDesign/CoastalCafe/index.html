@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- Created by: Wenqi Xia, 05/23/2020 -->
+<html lang="en">
+<head>
+	<title>Coastal Cafe</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="css/homepage.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+</head>
+
+<body>
+
+<!-- Use the header area for the website name or logo -->
+<header>
+	<a href="index.html">
+	<img src="images/logo0.75x.png" alt="Coastal Cafe Logo" id="logo" height="110" width="90">
+	</a>
+	<div class="topic">LIFE HAPPENS. COFFEE HELPS.</div>
+</header>
+				
+	
+<!-- nav bar style -->
+	<div class="topnav">
+		<a class="active" href="index.html">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="onlineorder.html">ORDER</a>
+		<a href="contact.html">CONTACT</a>
+		<div class="search-container">
+			<form action="/action_page.php">
+			  <input type="text" placeholder="Search.." name="search">
+			  <button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+	</div>
+
+	
+
+<!-- Use the main area to add the main content of the webpage -->
+	<main>
+		<div class="deskstop">
+			<img src="images/header.jpg" style="width:100%; height:auto; margin:0 auto" alt="header image">
+		</div>
+		<img src="images/hotcoffee.gif" style="width:10%; height:auto; margin:0 auto" alt="hotcoffee">
+		<div class="h2words">
+			<p>Slow down and take a sip...</p>
+		</div>
+		<div class="w3-display-container">
+			<img class="mySlides" src="images/about1s.png" alt="cafe image">
+			<img class="mySlides" src="images/about2s.png" alt="cafe image">
+			<img class="mySlides" src="images/about3s.png" alt="cafe image">
+		  
+			<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		  </div>
+		  
+		  <script>
+		  var slideIndex = 1;
+		  showDivs(slideIndex);
+		  
+		  function plusDivs(n) {
+			showDivs(slideIndex += n);
+		  }
+		  
+		  function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			if (n > x.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = x.length}
+			for (i = 0; i < x.length; i++) {
+			  x[i].style.display = "none";  
+			}
+			x[slideIndex-1].style.display = "block";  
+		  }
+		  </script>
+
+
+
+		
+	<!-- slideshow of featured menu -->
+	<div class="featuredmenuwords"><a href="https://wenqixia.neocities.org/coastal%20cafe%20website/menu.html" style="color: rgb(255, 102, 173)">Featured Menu</a></div>
+
+	<div id="butong_net_left" style="overflow:hidden;width:1800px;">
+	<table cellpadding="0" cellspacing="0" border="0">
+	<tr><td id="butong_net_left1" valign="top" align="center">
+	<table cellpadding="2" cellspacing="0" border="0">
+	<tr align="center">
+
+	<td><img class="slidemenu" src="images/slide1.jpg" alt="food image"></td>
+	<td><img class="slidemenu" src="images/slide2.jpg" alt="food image"></td>
+	<td><img class="slidemenu" src="images/slide3.jpg" alt="food image"></td>
+	<td><img class="slidemenu" src="images/slide4.jpg" alt="food image"></td>
+	<td><img class="slidemenu" src="images/slide5.jpg" alt="food image"></td>
+	<td><img class="slidemenu" src="images/slide6.jpg" alt="food image"></td>
+
+
+
+	</tr>
+	</table>
+	</td>
+	<td id="butong_net_left2" valign="top"></td>
+	</tr>
+	</table>
+	</div>
+	<script>
+	var speed=30
+	butong_net_left2.innerHTML=butong_net_left1.innerHTML
+	function Marquee3(){
+	if(butong_net_left2.offsetWidth-butong_net_left.scrollLeft<=0)
+	butong_net_left.scrollLeft-=butong_net_left1.offsetWidth
+	else{
+	butong_net_left.scrollLeft++
+	}
+	}
+	var MyMar3=setInterval(Marquee3,speed)
+	butong_net_left.οnmοuseοver=function() {clearInterval(MyMar3)}
+	butong_net_left.οnmοuseοut=function() {MyMar3=setInterval(Marquee3,speed)}
+	</script>
+
+	</main>
+		<div class="callus">
+			<p>Take a break! It's coffee time...<br>Call Us Today to Inquire, (781) 888-0000</p>
+		</div>
+		
+	
+<!-- Use the footer area to add webpage footer content -->
+<footer class="footer-distributed">
+ 
+	<div class="footer-left">
+  <img src="images/logo0.75x.png" style="width:50px; height:auto;" alt="logo image">
+		<h3>Coastal<span>Cafe</span></h3>
+
+		<p class="footer-links">
+			<a href="index.html">Home</a>
+			|
+			<a href="menu.html">Menu</a>
+			|
+			<a href="onlineorder.html">Order</a>
+			|
+			<a href="contact.html">Contact</a>
+		</p>
+
+		<p class="footer-company-name">© 2020 Coastal Cafe</p>
+	</div>
+
+	<div class="footer-center">
+		<div>
+			<i class="fa fa-map-marker"></i>
+			  <p><span>1 Main St,
+				 Malden, 02148,</span>
+				Massachusetts</p>
+		</div>
+
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>781 888 0000</p>
+		</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p><a href="mailto:admin@coastalcafe.com">admin@coastalcafe.com</a></p>
+		</div>
+	</div>
+</footer>
+	
+</body>
+</html>

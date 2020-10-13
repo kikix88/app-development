@@ -1,0 +1,306 @@
+/* Style sheet created by: Wenqi Xia, 03/3/2020 */
+
+/* Style for body specifies a background color */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+/* Style for nav bar */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+
+/* Style for Call Us Banner at bottom */
+.callus{
+  background-color: rgb(255, 102, 173);
+  text-align: center;
+  color: #ffffff;
+  padding:1px 1px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2vw;
+}
+
+/* Style for featured menu on landing page */
+
+
+.featuredmenuwords {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 3vw;
+  text-align: center;
+  color: rgb(255, 102, 128);
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.featuredmenuwords:hover {
+  background-color: white;
+  color:rgb(255, 102, 173);
+  font-size: 3.5vw;
+}
+
+.memberlogin {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2.5vw;
+  text-align: center;
+  color: rgb(255, 102, 128);
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+.memberlogin:hover {
+  background-color: white;
+  color:rgb(255, 102, 173);
+  font-size: 3.5vw;
+}
+
+/* Style for top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #38dff3;
+}
+
+/* Style for top navigation bar links*/
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #fd629c;
+  color: black;
+  transition: .5s;
+  }
+  
+}
+
+.topnav a.active {
+  background-color: #00094d;
+  color: white;
+  transition: .5s;
+}
+
+/* Style for search bar */
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 2px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 6px;
+  margin-top: 8px;
+  margin-right: 18px;
+  background: #38dff3;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+/* Display for mobile */
+@media (max-width: 480px){
+
+  .topnav a {
+    text-align: left;
+    color: #f2f2f2;
+    padding: 4px 5px;
+    text-decoration: none;
+    font-size: 5px;
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 1px;
+    margin-top: 5px;
+    font-size: 6px;
+    border: none;
+    float: left;
+  }
+  .topnav .search-container button {
+    float: right;
+    padding: 5px 1px;
+    margin-top: 5px;
+    margin-right: 8px;
+    background: #38dff3;
+    font-size: 6px;
+    border: none;
+    cursor: pointer;
+  }
+   
+
+}
+
+/* Display for tablet */
+@media (max-width: 768px){
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 4px 5px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 1px;
+    margin-top: 5px;
+    font-size: 10px;
+    border: none;
+  }
+  .topnav .search-container button {
+    float: right;
+    padding: 2px 2px;
+    margin-top: 2px;
+    margin-right: 6px;
+    background: #38dff3;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+/* Style for logo */
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -15px;
+}
+
+.topic{
+  display:block;
+  font-size: 1vw;
+  padding: 1px;
+  margin:0 auto;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+
+/* Style for slideshow words */
+.h2words{
+  display:block;
+  font-size: 3vw;
+  text-align: center;
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  Background:rgb(255, 102, 128);
+  color:white;
+  padding:3px;
+  margin:0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mySlides{
+  display: block;
+  margin:0 auto;
+  width:100%;
+}
+
+/* Style for contact */
+.imgcontact{
+  text-align: center;
+  display: block;
+}
+
+.contactform {
+  font: 20px Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: block;
+}
+
+.hours_content{
+  font-size: 25px;
+  color:rgb(247, 71, 100);
+  font-family: fantasy;
+  padding:2px;
+  margin:10px auto;
+}
+
+.location{
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.coffeemenu:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.foodmenu:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+/* Style for contact form */
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.submitbtn {
+  background-color: rgb(247, 71, 100);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitbtn:hover {
+  background-color: #fd629c;
+  color:black
+}
+
+.contactform {
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+

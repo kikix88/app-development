@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- Created by: Wenqi Xia, 06/15/2020 -->
+<html lang="en">
+<head>
+<title>Caribbean Beach Villa Dining</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="css/dining.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/bar.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+<style>
+  .mySlides {display:none;}
+</style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+        <img src="images/logo.png" alt="Villa Logo" id="logo" height="110" width="110">
+        </a>
+    </header>
+
+<!-- nav bar style -->
+<div class="topnav" id="myTopnav">
+	<a href="index.html">Home</a>
+	<a href="Accommodation.html">Accommodations</a>
+	<div class="dropdown">
+	  <button class="dropbtn" class="active">Dining 
+		<i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+		<a href="bistro.html">Bistro</a>
+		<a href="bar.html" class="active">Bar</a>
+		<a href="onlineorder.html">Order</a>
+	  </div>
+	</div> 
+    <a href="Meetings and Events.html">Meetings & Events</a>
+    
+    <div class="dropdown">
+        <button class="dropbtn">Offers 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="Deals.html">Deals</a>
+        <a href="Packages.html">Caribbean Special Packages</a>
+        </div>
+    </div> 
+    
+	<a href="Contact.html">Maps & Contact</a>
+	<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+ 
+<!-- Banner slideshow-->
+<div class="w3-content w3-section" style="max-width:1600px">
+    <img class="mySlides" src="images/cafe1.png" style="width:100%">
+    <img class="mySlides" src="images/cafe2.png" style="width:100%">
+    <img class="mySlides" src="images/cafe3.png" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+<!-- bar & cafe links-->
+<section class="grid-filter filter--locations">
+    <div class="grid-filter__inner">
+        <a class="grid-filter__link" href="bar.html"><span>Pirate</span> Bar</a>
+        <a class="grid-filter__link" href="cafe.html"><span>Island</span> Cafe</a>
+      </div>
+  </section>
+
+
+
+<!-- bar intro -->
+<div class="bistrointro">
+	<h1 style="text-align: center; font-size: 3vw; margin-top: 0.5em;">Island Cafe</h1>
+	<p style="text-align: center; font-size: 1.25vw; margin-top: 0.3em; margin-bottom: 0.2em; padding: 2%;">Being open after noon, our bar offers a multitude of ambiances…<br>
+		In the afternoons, you can enjoy our home-made pastries,<br>
+        accompanied with a freshly brew cup of coffee or tea.<br>In the late evenings, there is no better way to round off the day,<br>
+        than by relaxing comfortably in front of the crackling fireplace<br>
+        with a mixology cocktail or glass of wine.</p>
+</div>
+
+  
+<!-- Hours -->
+<div class="barhours">
+<h2>HOURS</h2><br>
+ <h3>Monday - Sunday</h3><br>
+ <h4>1:00 pm – 7:00 pm</h4>
+</div>
+
+
+
+
+<!-- menu -->
+<div class="bistroimage">
+    <img src="images/menu2.JPG" alt="cafe menu" style="width:35%;">
+</div>
+
+
+<!-- Use the footer area to add webpage footer content -->
+<footer class="footer-distributed">
+ 
+	<div class="footer-left">
+  <img src="images/logo.png" style="width:50px; height:auto;" alt="logo image">
+		<h3>CaribbeanBeach<span>Villa</span></h3>
+
+		<p class="footer-links">
+			<a href="index.html">Home</a>
+			|
+			<a href="menu.html">Menu</a>
+			|
+			<a href="onlineorder.html">Order</a>
+			|
+			<a href="Deals.html">Offers</a>
+			|
+			<a href="contact.html">Contact</a>
+		</p>
+
+		<p class="footer-company-name">© 2020 Caribbean Beach Villa</p>
+	</div>
+
+	<div class="footer-center">
+		<div>
+			<i class="fa fa-map-marker"></i>
+			  <p><span>1 Blvd. Kukulcan, Manzana 51, Lote.7
+				 77500,</span>
+				Cancun, Mexico</p>
+		</div>
+
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>880 888 0000</p>
+		</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p><a href="mailto:admin@coastalcafe.com">cs@caribbeanbeachvilla.com</a></p>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
