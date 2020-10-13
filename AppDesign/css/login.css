@@ -1,0 +1,170 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(245, 236, 224);
+}
+
+.topnav {
+  overflow: hidden;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width:100px;
+    height:auto;
+
+  }
+
+ 
+.container {
+  position: relative;
+  max-width: 1450px;
+  margin: 10px auto;
+}
+
+.container img {
+  vertical-align: middle;
+  opacity: 50%;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.intro{
+    font-size: 20px; 
+    color: navy; 
+    text-align: center; 
+    margin-bottom: 50px;
+    background-position: 10px 10%; 
+    background-repeat: no-repeat no-repeat; 
+    padding: 150px 0; 
+
+}
+
+.host{
+  font-size: 15px; 
+  color: navy; 
+  text-align: center; 
+  margin-bottom: 50px; 
+}
+
+#here{
+    color:navy;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2px 2px;
+    margin: 5px 2px;
+}
+
+#here:hover{
+    opacity: 0.8;
+    background-color: rgb(3, 40, 95);
+    color:white;
+}
+
+/* input[type=text], input[type=password] */ 
+.container input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 18px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2196F3;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+
+  width: auto;
+  padding: 10px 15px;
+  background-color: rgb(3, 40, 95);
+}
+
+
+
+span.psw {
+  float: center;
+  padding-top: 16px;
+}
+
+.footer{
+    background-color: rgb(43, 121, 211);
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 10px;
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 60%;
+  }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/index1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: green;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Use the header area for the website name or logo -->
+<header>
+    <a href="homepage.html">
+    <img src="images/logo.png" alt="logo" id="logo" height="110" width="90">
+    </a>
+    <div class="topic" style="font-family: fantasy; text-align: center; font-weight: bolder; font-size: 30px;margin-top: 10px;">Welcome to Church Build</div>
+</header>
+
+<div class="topnav">
+  <a href="homepage.html">Home</a>
+  <a class="active" href="#about">About</a>
+  <a href="contact.html">Contact</a>
+  <div class="login-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Username" name="username">
+      <input type="text" placeholder="Password" name="psw">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
+
+<div id="about">
+  <h2 style="text-align: center; color: #2196F3;">The Church Build is an app designed to help churches to build a vibrant and growing Body of Christ. </h2>
+  <p style="margin: 60px 250px; padding: 25px; border-style: double; border-color: #2196F3; border-width: 10px;" class="drop-cap">The app can be used by members to get to know and communicate with each other. You can view pictures, send text messages and emails to another church member directly from the app. 
+    The church can also send important communication to the members directly to the Church Build app. 
+    Instead of relying on forms and phone lists. The members can update their own information directly on the app.<br><br>
+  It also assists in the taking of attendance of various church events/meetings be it physically or virtually via today's remote meeting facilities. Through the weekly attendance of the members. the church may gage the condition of its members and better manages the various events/meetings. <br><br>
+  All data collected will only be disclosed to the particular church using the app and not to anyone else. We will never collect, store, share or sell your personal data without your consent. By deploying the most advanced IT and AI technologies, we will safeguard your information and data and provide you with customized reports to track the health of the church community!<br><br>
+  We can also simplify the initial data inputs byelping you to pre-load your membership lists into the cloud storage. 
+  </p>
+</div>
+
+<footer class="footer">
+	<p>Any questions, please contact<br>
+		<a href="mailto:Lin@AnalyticsConsult.com" style="color:wheat;">Lin@AnalyticsConsult.com</a></p>
+</footer>
+
+</body>
+</html>

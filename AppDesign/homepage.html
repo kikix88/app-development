@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/homepage.css">
+<link rel="stylesheet" href="css/login1.css">
+<link rel="stylesheet" href="css/index1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  * {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  /* contact form style */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #2196F3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: navy;
+}
+
+.contact {
+  text-align: left;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+
+</head>
+<body>
+<!-- Use the header area for the website name or logo -->
+<header>
+    <a href="homepage.html">
+    <img src="images/logo.png" alt="logo" id="logo" height="110" width="90">
+    </a>
+    <div class="topic" style="font-family: fantasy; text-align: center; font-weight: bolder; font-size: 30px;margin-top: 10px;">Welcome to Church Build</div>
+</header>
+
+
+
+<div class="topnav">
+  <a class="active" href="homepage.html">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+
+<!-- banner image -->
+<div class="container">
+    <img src="images/home.jpg" alt="church" style="width:40%; display: block; margin-left: auto; margin-right: auto;margin-top: 15px;">
+    <div class="content">
+      <h3>CHURCH BUILD</h3>
+      <p>A mobile and web-based app that helps churches<br>Build healthy communities and simplify the attendance taking.</p>
+    </div>
+  </div>
+
+
+<!-- about -->
+<div>
+  <h2 style="text-align: center; color: #2196F3; margin-top: 50px;">The Church Build is an app designed to help churches to build a vibrant and growing Body of Christ. </h2>
+  <a id="about">
+  <p style="margin: 60px 250px; padding: 25px; border-style: double; border-color: #2196F3; border-width: 10px;" class="drop-cap">The app can be used by members to get to know and communicate with each other. You can view pictures, send text messages and emails to another church member directly from the app. 
+    The church can also send important communication to the members directly to the Church Build app. 
+    Instead of relying on forms and phone lists. The members can update their own information directly on the app.<br><br>
+  It also assists in the taking of attendance of various church events/meetings be it physically or virtually via today's remote meeting facilities. Through the weekly attendance of the members. the church may gage the condition of its members and better manages the various events/meetings. <br><br>
+  All data collected will only be disclosed to the particular church using the app and not to anyone else. We will never collect, store, share or sell your personal data without your consent. By deploying the most advanced IT and AI technologies, we will safeguard your information and data and provide you with customized reports to track the health of the church community!<br><br>
+  We can also simplify the initial data inputs byelping you to pre-load your membership lists into the cloud storage. 
+  </p></a>
+</div>
+
+
+<!-- link to download the app -->	  
+<div style="text-align: center; margin: 60px 250px; padding: 25px; border-style: double; border-color: #2196F3; border-width: 10px;">
+  <h4>You can click <a id="here" href="https://thunk.app/web-build/index.html?webAppId=R2Yk2PU1w">HERE</a> to log into the ChurchBuild WebApp.</h4>
+      <img src="images/webapp.png" alt="webapp" style="width: 50%; height:auto;">
+</div>      
+  <h2 style="text-align: center; color: #2196F3; margin-top: 50px;">If you are the host of church events,<br>
+        you will be able to see all <br>the historical records of attendees.<br><br></h2>
+<!-- login button -->
+  <div class="w3-container" style="width: 8%; margin-left: auto; margin-right: auto;">
+
+    <button onclick="window.location.href='index.html';">
+    Login
+    </button>
+  </div>
+
+
+
+<img src="images/community2.png" alt="line" style="width: 30%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+<a id="contact">
+<div class="contactform">
+  <h3 style="text-align: center; font-size: 40px; margin-top: 50px; color:#2196F3">Contact Form</h3>
+  <h5 style="text-align: center; color: #555;">If you are interested, please leave your information and your church community's name below.</h5>
+
+<!-- contact form1 -->
+  <div class="contact">
+
+    <form action="mailto:Lin@AnalyticsConsult.com" method="post" enctype="text/plain" >
+    FirstName:<input type="text" name="FirstName">
+    Email:<input type="email" name="Email">
+    Subject:<input type="text" name="Subject">
+    <input type="submit" name="submit" value="Submit">
+    </form>
+    
+  </div> 
+
+</div>
+</a>
+
+
+
+
+
+<!-- footer -->
+<footer class="footer">
+	<p>Any questions, please contact<br>
+		<a href="mailto:Lin@AnalyticsConsult.com" style="color:wheat;">Lin@AnalyticsConsult.com</a></p>
+</footer>
+</div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAn7UPqYpKa1eGjKsr1XQoh6-rIhNd10ec",
+    authDomain: "church-build.firebaseapp.com",
+    databaseURL: "https://church-build.firebaseio.com",
+    projectId: "church-build",
+    storageBucket: "church-build.appspot.com",
+    messagingSenderId: "549094062698",
+    appId: "1:549094062698:web:b8db3788015fff681d6813",
+    measurementId: "G-NK7N7GQRXJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src="main.js"></script>
+</body>
+</html>
